@@ -1,37 +1,29 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>San Valentín ❤️</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reset.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/theme/black.min.css">
+    <meta charset="utf-8">
+    <title>Presentación con Reveal.js</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/black.css">
 </head>
 <body>
     <div class="reveal">
         <div class="slides">
             <section>
-                <h2>💖 ¿Quieres ser mi San Valentín? 💖</h2>
-                <p>(Presiona la tecla → para continuar)</p>
+                <h1>Bienvenido</h1>
+                <p>Esta es mi primera diapositiva.</p>
             </section>
             <section>
-                <h2>Eres la persona más especial en mi vida.</h2>
+                <h2>Diapositiva 2</h2>
+                <p>Contenido adicional aquí.</p>
             </section>
             <section>
-                <h2>Desde que te conocí, todo es más bonito. 🌸</h2>
-            </section>
-            <section>
-                <h2>No imagino mi vida sin ti. 🥰</h2>
-            </section>
-            <section>
-                <h2>💘 ¿Aceptas ser mi San Valentín? 💘</h2>
-                <p>(Di que sí, por favor 🙈)</p>
+                <h2>Diapositiva 3</h2>
+                <p>¡Diapositiva final!</p>
             </section>
         </div>
     </div>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.min.js"></script>
     <script>
         Reveal.initialize();
     </script>
